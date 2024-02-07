@@ -19,6 +19,6 @@ docker pull ansep/planning-tools
 ```
 2. **Run the planning algorithm:**
 ```bash
-docker run -it -v YOUR_PDDL_DIR:/pddl ansep/planning-tools:ALGORITHM_NAME YOUR_DOMAIN.pddl YOUR_PROBLEM.pddl OUTPUT_PLAN.sas
+docker run -it -v YOUR_PDDL_DIR:/pddl ansep/planning-tools ALGORITHM_NAME YOUR_DOMAIN.pddl YOUR_PROBLEM.pddl OUTPUT_PLAN.sas
 ```
 Replace `ALGORITHM_NAME` with the specific algorithm from one of the following list, and adjust paths and filenames as needed.
